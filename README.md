@@ -1,16 +1,29 @@
 ## Hi there 👋
 
-<!--
-**gopi-701/gopi-701** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Gopinath S
 
-Here are some ideas to get you started:
+Software Engineer focused on backend development and applied AI systems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I mainly work with TypeScript, Node.js, databases, and RAG-based applications. I’m especially interested in backend architecture, authorization, asynchronous systems, and building reliable AI-enabled software.
+
+## Tech
+
+TypeScript · JavaScript · Node.js · Next.js · PostgreSQL · MongoDB · Redis · Docker · Go
+
+## Projects
+
+### VaultRAG
+
+A security-focused RAG application built around server-controlled authorization and access-aware retrieval.
+
+Tech: TypeScript, Next.js, JWT, Zod, Qdrant, Cohere, Vitest
+
+## Open Source
+
+Contributed to Keploy with a bug fix for incorrect CLI exit behavior when logger initialization fails, along with regression coverage.
+
+PR: keploy/keploy#4441
+
+## Links
+
+LinkedIn: linkedin.com/in/gopinath-701
