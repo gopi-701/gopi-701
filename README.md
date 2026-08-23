@@ -23,6 +23,3 @@ Contributed to Keploy with a bug fix for incorrect CLI exit behavior when logger
 
 PR: keploy/keploy#4441
 
-## Links
-
-LinkedIn: linkedin.com/in/gopinath-701
