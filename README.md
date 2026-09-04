@@ -15,7 +15,7 @@ TypeScript · JavaScript · Node.js · Next.js · PostgreSQL · MongoDB · Redis
 
 A security-focused RAG application built around server-controlled authorization and access-aware retrieval.
 
-Tech: TypeScript, Next.js, JWT, Zod, Qdrant, Cohere, Vitest
+Tech: TypeScript, Next.js, JWT, Zod, Qdrant.
 
 ## Open Source
 
