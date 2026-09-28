@@ -6,7 +6,7 @@ I mainly work with TypeScript, Node.js, databases, and RAG-based applications. I
 
 ## Tech
 
-TypeScript · JavaScript · Node.js · Next.js · PostgreSQL · MongoDB · Redis · Docker · Go
+TypeScript · JavaScript · Node.js · Expressjs · Next.js · PostgreSQL · MongoDB · Redis · Docker · Go
 
 ## Projects
 
