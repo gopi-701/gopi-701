@@ -18,21 +18,19 @@ Tech: TypeScript, Next.js, JWT, Zod, Qdrant.
 
 ## Open Source
 
-### Juspay — Svelte UI Components
+### Recent contributions
 
-- Isolated form-association contract tests from documentation demos using a dedicated fixture app, helping keep component tests independent of demo markup.
-- Enabled barrel tree-shaking while preserving web-component side effects, reducing a production Webpack consumer bundle by 78.2%.
+- **Juspay Svelte UI Components:** moved form-association contract tests into an isolated fixture so tests no longer depend on documentation demo markup. The merged PR reports 34 browser tests passing across the affected component areas and 2,355 unit tests passing (1 skipped).
+- **Juspay Hyperswitch Web:** fixed Payment Methods Management card confirmation to include online customer acceptance when the generic save-card condition is false.
+- **Juspay Svelte UI Components:** enabled barrel tree-shaking while preserving web-component registration side effects, reducing a production Webpack consumer bundle by 78.2%.
 
-PRs: [#645](https://github.com/juspay/svelte-ui-components/pull/645) · [#630](https://github.com/juspay/svelte-ui-components/pull/630)
+### Other contribution
 
-### Juspay — Hyperswitch Web
+- **Keploy:** fixed the CLI exit status when logger initialization fails and added regression coverage for the failure path.
 
-Fixed Payment Methods Management card confirmation so online customer acceptance is included even when the generic save-card acceptance condition is false.
+## Pull requests
 
-PR: [#1743](https://github.com/juspay/hyperswitch-web/pull/1743)
-
-### Keploy
-
-Fixed incorrect successful CLI exit status when logger initialization fails, with regression coverage for the failure path.
-
-PR: [#4441](https://github.com/keploy/keploy/pull/4441)
+- [Juspay Svelte UI Components #645 — isolate form-association tests](https://github.com/juspay/svelte-ui-components/pull/645)
+- [Juspay Hyperswitch Web #1743 — customer acceptance in PMM flow](https://github.com/juspay/hyperswitch-web/pull/1743)
+- [Juspay Svelte UI Components #630 — barrel tree-shaking](https://github.com/juspay/svelte-ui-components/pull/630)
+- [Keploy #4441 — non-zero exit on logger initialization failure](https://github.com/keploy/keploy/pull/4441)
