@@ -20,6 +20,7 @@ Tech: TypeScript, Next.js, JWT, Zod, Qdrant.
 
 ### Recent contributions
 
+- **Juspay Svelte UI Components:** fixed `placement="auto"` for portaled Select menus so they retain viewport fitting and clamping, with regression coverage for flipping and pinned placements.
 - **Juspay Svelte UI Components:** moved form-association contract tests into an isolated fixture so tests no longer depend on documentation demo markup. The merged PR reports 34 browser tests passing across the affected component areas and 2,355 unit tests passing (1 skipped).
 - **Juspay Hyperswitch Web:** fixed Payment Methods Management card confirmation to include online customer acceptance when the generic save-card condition is false.
 - **Juspay Svelte UI Components:** enabled barrel tree-shaking while preserving web-component registration side effects, reducing a production Webpack consumer bundle by 78.2%.
@@ -30,6 +31,7 @@ Tech: TypeScript, Next.js, JWT, Zod, Qdrant.
 
 ## Pull requests
 
+- [Juspay Svelte UI Components #639 — preserve viewport fitting for auto placement](https://github.com/juspay/svelte-ui-components/pull/639)
 - [Juspay Svelte UI Components #645 — isolate form-association tests](https://github.com/juspay/svelte-ui-components/pull/645)
 - [Juspay Hyperswitch Web #1743 — customer acceptance in PMM flow](https://github.com/juspay/hyperswitch-web/pull/1743)
 - [Juspay Svelte UI Components #630 — barrel tree-shaking](https://github.com/juspay/svelte-ui-components/pull/630)
