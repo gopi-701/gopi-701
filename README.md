@@ -1,38 +1,29 @@
 # Gopinath S
 
-Software Engineer focused on backend development and applied AI systems.
+Backend-focused software engineer working with **TypeScript, Node.js, APIs, and data systems**. I like making systems more reliable: access control, asynchronous workflows, retrieval, and tests that protect real behavior.
 
-I mainly work with TypeScript, Node.js, databases, and RAG-based applications. I’m especially interested in backend architecture, authorization, asynchronous systems, and building reliable AI-enabled software.
+## What I'm working on
 
-## Tech
+- **[VaultRAG](https://github.com/gopi-701/Vaultrag)** — a security-focused RAG system with server-controlled RBAC/ABAC and access-aware retrieval.
+- **Backend engineering** — API design, authorization, data modeling, reliability, and system design.
 
-TypeScript · JavaScript · Node.js · Expressjs · Next.js · PostgreSQL · MongoDB · Redis · Docker · Go
+## Stack
 
-## Projects
+**Languages:** TypeScript, JavaScript, Go  
+**Backend:** Node.js, Express, REST APIs, JWT, Zod  
+**Data & infrastructure:** PostgreSQL, MongoDB, Redis, Docker  
+**AI retrieval:** Qdrant, Jina AI, RAG
 
-### VaultRAG
+## Open source
 
-A security-focused RAG application built around server-controlled authorization and access-aware retrieval.
+I contribute fixes and regression tests to production codebases, including:
 
-Tech: TypeScript, Next.js, JWT, Zod, Qdrant.
+- **[Juspay Svelte UI Components #639](https://github.com/juspay/svelte-ui-components/pull/639)** — preserved viewport fitting for automatically placed portaled Select menus.
+- **[Juspay Svelte UI Components #645](https://github.com/juspay/svelte-ui-components/pull/645)** — isolated form-association contract tests from documentation demo markup.
+- **[Juspay Hyperswitch Web #1743](https://github.com/juspay/hyperswitch-web/pull/1743)** — fixed customer acceptance handling in the Payment Methods Management card flow.
+- **[Juspay Svelte UI Components #630](https://github.com/juspay/svelte-ui-components/pull/630)** — enabled barrel tree-shaking while preserving web-component registration side effects; measured production bundle reduction of **78.2%**.
+- **[Keploy #4441](https://github.com/keploy/keploy/pull/4441)** — fixed CLI exit status when logger initialization fails.
 
-## Open Source
+## Current focus
 
-### Recent contributions
-
-- **Juspay Svelte UI Components:** fixed `placement="auto"` for portaled Select menus so they retain viewport fitting and clamping, with regression coverage for flipping and pinned placements.
-- **Juspay Svelte UI Components:** moved form-association contract tests into an isolated fixture so tests no longer depend on documentation demo markup. The merged PR reports 34 browser tests passing across the affected component areas and 2,355 unit tests passing (1 skipped).
-- **Juspay Hyperswitch Web:** fixed Payment Methods Management card confirmation to include online customer acceptance when the generic save-card condition is false.
-- **Juspay Svelte UI Components:** enabled barrel tree-shaking while preserving web-component registration side effects, reducing a production Webpack consumer bundle by 78.2%.
-
-### Other contribution
-
-- **Keploy:** fixed the CLI exit status when logger initialization fails and added regression coverage for the failure path.
-
-## Pull requests
-
-- [Juspay Svelte UI Components #639 — preserve viewport fitting for auto placement](https://github.com/juspay/svelte-ui-components/pull/639)
-- [Juspay Svelte UI Components #645 — isolate form-association tests](https://github.com/juspay/svelte-ui-components/pull/645)
-- [Juspay Hyperswitch Web #1743 — customer acceptance in PMM flow](https://github.com/juspay/hyperswitch-web/pull/1743)
-- [Juspay Svelte UI Components #630 — barrel tree-shaking](https://github.com/juspay/svelte-ui-components/pull/630)
-- [Keploy #4441 — non-zero exit on logger initialization failure](https://github.com/keploy/keploy/pull/4441)
+Building stronger backend engineering fundamentals through real implementations: correctness, authorization boundaries, failure handling, automated tests, and measurable performance.
