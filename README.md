@@ -14,15 +14,23 @@ Backend-focused software engineer working with **TypeScript, Node.js, APIs, and 
 **Data & infrastructure:** PostgreSQL, MongoDB, Redis, Docker  
 **AI retrieval:** Qdrant, Jina AI, RAG
 
-## Open source
+## Recently merged open-source contributions
 
-I contribute fixes and regression tests to production codebases, including:
+- **[Juspay Svelte UI Components #639](https://github.com/juspay/svelte-ui-components/pull/639)** · *Oct 9, 2026 — Bug fix and regression tests*  
+  Fixed portaled Select menus using `placement="auto"` so they retain viewport fitting and clamping. The PR reports 2,207 unit tests and 20 relevant browser tests passing.
 
-- **[Juspay Svelte UI Components #639](https://github.com/juspay/svelte-ui-components/pull/639)** — preserved viewport fitting for automatically placed portaled Select menus.
-- **[Juspay Svelte UI Components #645](https://github.com/juspay/svelte-ui-components/pull/645)** — isolated form-association contract tests from documentation demo markup.
-- **[Juspay Hyperswitch Web #1743](https://github.com/juspay/hyperswitch-web/pull/1743)** — fixed customer acceptance handling in the Payment Methods Management card flow.
-- **[Juspay Svelte UI Components #630](https://github.com/juspay/svelte-ui-components/pull/630)** — enabled barrel tree-shaking while preserving web-component registration side effects; measured production bundle reduction of **78.2%**.
-- **[Keploy #4441](https://github.com/keploy/keploy/pull/4441)** — fixed CLI exit status when logger initialization fails.
+- **[Juspay Svelte UI Components #645](https://github.com/juspay/svelte-ui-components/pull/645)** · *Oct 4, 2026 — Test infrastructure*  
+  Moved form-association contract tests into an isolated fixture, decoupling component contracts from documentation demo markup. The PR reports 34 browser tests and 2,355 unit tests passing (1 skipped), with lint and type checks passing.
+
+- **[Juspay Svelte UI Components #630](https://github.com/juspay/svelte-ui-components/pull/630)** · *Sep 15, 2026 — Bundle optimization*  
+  Enabled barrel tree-shaking while preserving web-component registration side effects. A production Webpack consumer bundle decreased from 262,977 B to 57,299 B (**78.2% smaller**).
+
+- **[Juspay Hyperswitch Web #1743](https://github.com/juspay/hyperswitch-web/pull/1743)** · *Sep 2, 2026 — Payment flow bug fix*  
+  Fixed Payment Methods Management card confirmation so the request includes online customer acceptance when the generic save-card condition is false.
+
+## Other open-source contribution
+
+- **[Keploy #4441](https://github.com/keploy/keploy/pull/4441)** — fixed the CLI exit status when logger initialization fails and added regression coverage for that failure path.
 
 ## Current focus
 
